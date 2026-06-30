@@ -99,11 +99,23 @@ body {
     letter-spacing: -0.01em;
 }
 
+/* App icon next to the wordmark. Doubled from 32px to 64px to match
+ * gososh.app and whatsfordinnertonight.org so the brand reads with
+ * confidence on first glance. iOS app-icon rounding (14px on a 64px
+ * tile = iOS 16+ default ratio) so the mark reads as "the app," not
+ * a generic square logo.
+ *
+ * Light border + soft drop shadow give the icon visual weight against
+ * the white page without overwhelming the wordmark beside it. */
 .brand-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 7px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    flex-shrink: 0;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
 }
 
 /* ---- Headings ---- */
