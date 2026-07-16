@@ -6,8 +6,7 @@
  * - System fonts, comfortable measure, generous spacing.
  * - App cards use per-app accent colors as left-border treatment to
  *   echo each app's brand without dominating the page.
- * - Single column above, three-card grid for app section on wide
- *   screens, stacked on mobile.
+ * - Single column above, app cards stacked (four of them now).
  * - No JS.
  */
 
@@ -19,9 +18,9 @@
     --fg-muted: #545962;
     --fg-tertiary: #8a8e96;
 
-    /* Slate accent — neutral umbrella over the three apps. Reads as
+    /* Slate accent — neutral umbrella over the apps. Reads as
      * "the portfolio is the brand" rather than competing with WFD
-     * coral or GoSosh coral. */
+     * coral, GoSosh coral, or Xgest amber. */
     --accent: #3a4a5e;
     --accent-dark: #2c3a4c;
     --accent-light: #eef0f4;
@@ -30,6 +29,7 @@
     --wfd-accent: #d65d3a;     /* WFD coral */
     --gososh-accent: #d65d3a;  /* GoSosh coral (same as WFD by coincidence) */
     --sandeeze-accent: #c4763e; /* Sandeeze orange — bed/clock icon palette */
+    --xgest-accent: #c2831f;   /* Xgest amber — the highlighter on the icon */
 
     --border: #e6e8ec;
     --surface: #f7f8fa;
@@ -223,6 +223,10 @@ a:hover {
     border-left-color: var(--sandeeze-accent);
 }
 
+.app-card-xgest {
+    border-left-color: var(--xgest-accent);
+}
+
 /* App card body copy — slightly smaller than main body to keep
  * cards tight. */
 .app-card p {
@@ -257,6 +261,7 @@ a:hover {
 .app-card-wfd p:last-child a { color: var(--wfd-accent); }
 .app-card-gososh p:last-child a { color: var(--gososh-accent); }
 .app-card-sandeeze p:last-child a { color: var(--sandeeze-accent); }
+.app-card-xgest p:last-child a { color: var(--xgest-accent); }
 
 .app-card p:last-child a:hover {
     text-decoration: underline;
