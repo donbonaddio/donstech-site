@@ -288,6 +288,24 @@ a:hover {
     font-size: 0.98rem;
 }
 
+.site-footer .socials {
+    margin: 0 0 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem 1rem;
+    font-size: 0.9rem;
+}
+
+.site-footer .socials a {
+    color: var(--fg-muted);
+    text-decoration: none;
+}
+
+.site-footer .socials a:hover {
+    color: var(--accent);
+}
+
 .site-footer .meta {
     font-size: 0.88rem;
     margin: 0;
