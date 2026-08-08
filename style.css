@@ -331,3 +331,12 @@ a:hover {
     main > p:first-of-type em { font-size: 1.08rem; }
     .app-card { padding: 1.2rem 1.3rem; }
 }
+
+/* ---- Demo video (Ep0 "Xgest it" — mirrors xgest.app's .demo) ---- */
+.demo { margin: 2rem auto 2.5rem; max-width: 300px; text-align: center; }
+.demo video {
+    width: 100%; height: auto; display: block;
+    border-radius: 22px; border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.14); background: #fff;
+}
+.demo figcaption { margin-top: 0.8rem; font-size: 0.9rem; color: #5a5a5a; line-height: 1.45; }
