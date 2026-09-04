@@ -30,6 +30,7 @@
     --gososh-accent: #d65d3a;  /* GoSosh coral (same as WFD by coincidence) */
     --sandeeze-accent: #c4763e; /* Sandeeze orange — bed/clock icon palette */
     --xgest-accent: #c2831f;   /* Xgest amber — the highlighter on the icon */
+    --totalvu-accent: #2a9d5c; /* TotalVu green — the "on this Mac" color */
 
     --border: #e6e8ec;
     --surface: #f7f8fa;
@@ -227,6 +228,10 @@ a:hover {
     border-left-color: var(--xgest-accent);
 }
 
+.app-card-totalvu {
+    border-left-color: var(--totalvu-accent);
+}
+
 /* App card body copy — slightly smaller than main body to keep
  * cards tight. */
 .app-card p {
@@ -262,6 +267,7 @@ a:hover {
 .app-card-gososh p:last-child a { color: var(--gososh-accent); }
 .app-card-sandeeze p:last-child a { color: var(--sandeeze-accent); }
 .app-card-xgest p:last-child a { color: var(--xgest-accent); }
+.app-card-totalvu p:last-child a { color: var(--totalvu-accent); }
 
 .app-card p:last-child a:hover {
     text-decoration: underline;
