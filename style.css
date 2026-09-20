@@ -31,6 +31,8 @@
     --sandeeze-accent: #c4763e; /* Sandeeze orange — bed/clock icon palette */
     --xgest-accent: #c2831f;   /* Xgest amber — the highlighter on the icon */
     --totalvu-accent: #2a9d5c; /* TotalVu green — the "on this Mac" color */
+    --breakline-accent: #2f6f9e; /* Breakline steel-blue — the coverage board */
+    --dunow-accent: #8f38c7;   /* Dunow purple — a game tile colour */
 
     --border: #e6e8ec;
     --surface: #f7f8fa;
@@ -232,6 +234,14 @@ a:hover {
     border-left-color: var(--totalvu-accent);
 }
 
+.app-card-breakline {
+    border-left-color: var(--breakline-accent);
+}
+
+.app-card-dunow {
+    border-left-color: var(--dunow-accent);
+}
+
 /* App card body copy — slightly smaller than main body to keep
  * cards tight. */
 .app-card p {
@@ -268,6 +278,8 @@ a:hover {
 .app-card-sandeeze p:last-child a { color: var(--sandeeze-accent); }
 .app-card-xgest p:last-child a { color: var(--xgest-accent); }
 .app-card-totalvu p:last-child a { color: var(--totalvu-accent); }
+.app-card-breakline p:last-child a { color: var(--breakline-accent); }
+.app-card-dunow p:last-child a { color: var(--dunow-accent); }
 
 .app-card p:last-child a:hover {
     text-decoration: underline;
