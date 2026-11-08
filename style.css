@@ -238,6 +238,8 @@ p { margin: 0 0 1rem; }
 .now-list { margin: 0; padding-left: 1.2rem; }
 .now-list li { margin-bottom: .5rem; }
 
+.feed-url { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: .9rem 1.1rem; font: 600 1.02rem/1.4 var(--display); overflow-wrap: anywhere; }
+
 /* CTA + footer */
 .cta { background: var(--navy); background-image: radial-gradient(50rem 22rem at 50% 0, var(--navy-2), transparent 72%); color: var(--on-navy); text-align: center; }
 .cta .wrap { padding-top: 4.5rem; padding-bottom: 4.5rem; }
