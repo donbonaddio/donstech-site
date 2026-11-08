@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://donstech.com/sitemap.xml
