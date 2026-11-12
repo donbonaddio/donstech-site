@@ -285,7 +285,7 @@ p { margin: 0 0 1rem; }
 }
 @media (max-width: 820px) {
   .hero .wrap { grid-template-columns: minmax(0, 1fr); gap: 2.6rem; padding-top: 3.25rem; padding-bottom: 3.25rem; }
-  .icon-wall { grid-template-columns: repeat(5, minmax(0, 1fr)); max-width: none; margin: 0; gap: .7rem; }
+  .icon-wall { grid-template-columns: repeat(6, minmax(0, 1fr)); max-width: none; margin: 0; gap: .6rem; }
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .videos { grid-template-columns: minmax(0, 1fr); }
   .bridges { grid-template-columns: minmax(0, 1fr); }
